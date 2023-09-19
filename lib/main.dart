@@ -16,7 +16,7 @@ class JokeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Fetch jokes every minute
-    Timer.periodic(const Duration(seconds: 20), (Timer t) => jokeCubit.fetchJokes());
+    Timer.periodic(const Duration(minutes: 1), (Timer t) => jokeCubit.fetchJokes());
 
     // Load jokes from the database when the app is launched
     jokeCubit.loadJokesFromDatabase();
