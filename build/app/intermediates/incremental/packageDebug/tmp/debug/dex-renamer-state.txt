@@ -1,0 +1,4 @@
+#Tue Sep 19 15:09:20 IST 2023
+base.0=/Users/macolution/Documents/Joke_App/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
